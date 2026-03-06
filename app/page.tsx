@@ -4,6 +4,7 @@ import { About } from '@/components/about';
 import { Experience } from '@/components/experience';
 import { Skills } from '@/components/skills';
 import { Contact } from '@/components/contact';
+import { ChatWidget } from '@/components/chat-widget';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Experience />
       <Skills />
       <Contact />
+      <ChatWidget />
     </main>
   );
 }
